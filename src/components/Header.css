@@ -1,0 +1,38 @@
+.header {
+    background-image: linear-gradient(#45B0E6, #1A88D5);
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.header button {
+    background-color: white;
+    color: #297CBE;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.header button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1), 0 5px 20px 0 rgba(0,0,0,0.1);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}

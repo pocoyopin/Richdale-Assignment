@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.main-body {
+  display: flex;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: 5px solid #45B0E6;
+  border-radius: 5px;
+  justify-content: center;
+}

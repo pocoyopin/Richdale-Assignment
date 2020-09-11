@@ -1,0 +1,11 @@
+.footer {
+    background-image: linear-gradient(#45B0E6, #1A88D5);
+    flex-direction: row;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.footer h1 {
+    margin: 0;
+    color: white;
+}

@@ -1,0 +1,32 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    margin-bottom: 5px;
+}
+
+.login-form .login-button {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #297CBE;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.login-form .login-button:hover {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.1), 0 5px 20px 0 rgba(0,0,0,0.1);
+}
+
+.login-form .error {
+    padding-bottom: 5px;
+    color: red;
+    font-style: italic;
+    /* transition: 0.2s; */
+}
